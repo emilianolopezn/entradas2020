@@ -19,7 +19,7 @@ using namespace std;
 GLFWwindow* window;
 float posXTriangulo = 0.0f , posYTriangulo = 0.0f;
 double tiempoActual, tiempoAnterior;
-double velocidadTriangulo = 0.2;
+double velocidadTriangulo = 0.8;
 
 void teclado_callback(GLFWwindow* window,
 	int key, int scancode, int action, int mods) {
